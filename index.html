@@ -385,6 +385,72 @@
             pointer-events: none;
             animation: floatAround 20s linear infinite;
         }
+         
+        .page-6 { background: linear-gradient(135deg, rgba(255, 240, 243, 0.95), rgba(255, 214, 224, 0.95));
+        }
+
+        .question-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: var(--deep-red);
+            margin-bottom: 20px;
+        }
+
+        .question-text {
+            font-size: 2rem;
+            color: var(--dark-red);
+            margin-bottom: 50px;
+            font-weight: 600;
+        }
+
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%; /* Makes image circular */
+            object-fit: cover;
+            border: 4px solid var(--primary-color);
+        }
+        
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden; /* Hides image overflow */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card-info {
+            padding: 20px;
+            text-align: justify;
+        }
+
+        .yes-eyes-btn {
+            background: linear-gradient(135deg, var(--primary-pink), #ff758f);
+            color: white;
+            border: none;
+            padding: 20px 50px;
+            font-size: 1.5rem;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 12px 30px rgba(255, 77, 109, 0.4);
+            transition: all 0.3s ease;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .yes-eyes-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 18px 40px rgba(255, 77, 109, 0.5);
+        }
 
         @keyframes floatAround {
             0% {
@@ -618,7 +684,7 @@
             </div>
             
             <div class="signature">
-                — <b>your bf bima si peramal</b> 💕
+                — <b>your boyfriends bima </b> 💕
             </div>
             
             <!-- Stickers -->
@@ -632,6 +698,68 @@
                 💕
             </div>
         </section>
+
+    <main>
+        <section id="memory" class="page-6">
+            <h3>My Projects / Gallery</h3>
+            
+            <!-- This is the GRID for your items -->
+            <div class="project-grid">
+                
+                <!-- Item 1 -->
+                <div class="card">
+                    <!-- Image of the project -->
+                    <img src="memory 1.jpeg" alt="profile-pic">
+                    <div class="card-info">
+                        <h4> Surabaya City Square</h4>
+                        <p>A rainy dusk at Surabaya City Square — where history meets atmosphere. 
+                            The golden dome glows against the stormy sky, while raindrops linger on
+                            leaves in the foreground. A quiet moment, rich in contrast and emotion.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="card">
+                    <img src="memory 2.jpeg" alt="profile-pic">
+                    <div class="card-info">
+                        <h4>Majestic Morning at Mount Bromo</h4>
+                        <p>As the first light touches the volcanic peaks of East Java, mist and smoke rise in quiet harmony.
+                             This frame captures the raw beauty of Mount Bromo’s crater, layered with distant silhouettes 
+                             and a sky that fades from gold to deep blue — a moment of serenity carved by nature’s power.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="card">
+                    <img src="memory 3.mp4" alt="profile-pic">
+                    <div class="card-info">
+                        <h4>Personal Portfolio — Bima's Creative Playground</h4>
+                        <p>A minimalist personal website built with HTML and CSS, showcasing Bima’s passion for 
+                           clean layout design, responsive structure, and music-inspired aesthetics. This project 
+                           reflects his early journey into web development, blending hobbies and experimentation 
+                           into a digital space.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="card">
+                    <img src="memory 4.mp4" alt="profile-pic">
+                    <div class="card-info">
+                        <h4>Majestic Morning at Mount Bromo</h4>
+                        <p>As the first light touches the volcanic peaks of East Java, mist and smoke rise in quiet harmony.
+                             This frame captures the raw beauty of Mount Bromo’s crater, layered with distant silhouettes 
+                             and a sky that fades from gold to deep blue — a moment of serenity carved by nature’s power.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+        
+                <!-- Add more cards if you want! -->
+
+           
+    
         
         
         <!-- Navigation Dots -->
